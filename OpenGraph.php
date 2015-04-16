@@ -81,6 +81,7 @@ class OpenGraph implements Iterator
 	static private function _parse($HTML) {
 		$old_libxml_error = libxml_use_internal_errors(true);
 
+		$HTML = str_ireplace('<meta charset="UTF-8">', '<meta charset="UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">', $HTML);
 		$doc = new DOMDocument();
 		$doc->loadHTML($HTML);
 		
