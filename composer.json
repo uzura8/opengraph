@@ -1,0 +1,18 @@
+{
+	"name": "uzura8/opengraph",
+	"type": "library",
+	"description": "Open Graph Protocol helper for PHP (forked from scottmac/opengraph)",
+	"keywords": ["opengraph"],
+	"license": "Apache License Version 2.0",
+	"authors": [
+		{
+			"name": "Shingo Yamada",
+			"email": "uzuranoie@gmail.com",
+			"role": "Developer"
+		},
+	],
+	"require": {
+		"php": ">=5.0.0"
+	},
+}
+
