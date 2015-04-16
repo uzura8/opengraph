@@ -9,10 +9,10 @@
 			"name": "Shingo Yamada",
 			"email": "uzuranoie@gmail.com",
 			"role": "Developer"
-		},
+		}
 	],
 	"require": {
 		"php": ">=5.0.0"
-	},
+	}
 }
 
